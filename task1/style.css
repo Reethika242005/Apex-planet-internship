@@ -10,11 +10,14 @@ h1 {
   color: #0066cc;
 }
 
+
 img {
-  margin: 20px 0;
-  border: 2px solid #ccc;
-  border-radius: 10px;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 10px auto; /* centers the image horizontally */
 }
+
 
 button {
   background-color: #28a745;
