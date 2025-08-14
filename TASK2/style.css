@@ -1,0 +1,99 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #1f2937;
+  text-align: center;
+}
+
+h1 {
+  color: #4f46e5;
+  margin-top: 20px;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+.card h2 {
+  color: #4f46e5;
+}
+
+.card p {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #1f2937;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #4f46e5;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.submit-btn:hover {
+  background-color: #4338ca;
+}
+
+.todo-input {
+  display: flex;
+  gap: 10px;
+}
+
+.add-btn {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.add-btn:hover {
+  background-color: #059669;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 15px;
+ 
